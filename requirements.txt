@@ -1,5 +1,23 @@
-# Add Python runtime dependencies here, for example:
-# fastapi==0.95.2
-# uvicorn[standard]==0.22.0
+# Runtime dependencies for OctoFit Tracker (uncomment or pin versions as needed)
+fastapi>=0.95
+uvicorn[standard]>=0.22
+python-dotenv>=1.0
+pydantic>=1.10
+sqlalchemy>=1.4
+databases>=0.7
+alembic>=1.11
+python-jose>=3.3
+passlib[bcrypt]>=1.7
+httpx>=0.24
 
-# Leave empty for now
+# Development / CI tools (move to dev-requirements.txt if preferred)
+# black>=23.1.0
+# ruff>=0.18.0
+# isort>=5.12.0
+# pytest>=7.2.0
+# pre-commit>=3.4.0
+
+# Notes:
+# - Adjust or pin versions to your preferred release constraints.
+# - If you prefer poetry or pip-tools, consider using pyproject.toml or requirements.in/requirements.txt workflow.
+# - To install: `pip install -r requirements.txt`
