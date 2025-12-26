@@ -1,6 +1,9 @@
 # Python virtual environment
 .venv/
 
+# OctoFit tracker venv
+octofit-tracker/backend/venv/
+
 # Byte-compiled / cache
 __pycache__/
 *.py[cod]
