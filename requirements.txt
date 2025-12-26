@@ -1,0 +1,5 @@
+# Add Python runtime dependencies here, for example:
+# fastapi==0.95.2
+# uvicorn[standard]==0.22.0
+
+# Leave empty for now
